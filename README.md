@@ -34,12 +34,13 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Provided data shows class imbalance.
+- Augmentation strategy applied to overcome the class imbalance and reducing overfitting, underfitting issues
+- Images are normalized between 0-1 and resized to 180*180
 - seborrheic keratosis shows minimum number of samples and pigmented benign keratosis have higher number of samples
-- Augmentation strategy applied for balancing the class imbalance and reducing overfitting, underfitting issues
-- Dropout layers are included to reduce overfitting.
-- Images are normalized between 0-1 and resized 180*180
-- The Final model gives around 86% training accuracy and 82% validation accuracy after 30 epochs
+- Dropout layers are included to reduce overfitting
+- The Final model gives below accuracies after 30 epochs
+    - Training accuracy - 85.42% 
+    - Validation accuracy -  79.14%  
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
